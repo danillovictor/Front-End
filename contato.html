@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link href="https://fonts.googleapis.com/css2?family=Alata&family=Russo+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="shortcut icon" href="assets/img/sonyicon.png">
+</head>
+<body bgcolor="gray">
+    <ul id="menu">
+        <li class="fontecool3"><a href="index.html">VOLTAR</a></li>
+    </ul>
+    <h1 class="fontecool2">Entre em contato comigo!</h1>
+    
+    <form class="fontecool p-30">
+        <label for="nome">Nome:</label><br>
+        <input type="text" id="nome" onkeyup="validaNome()">
+        <div id="txtNome"></div>
+        <br>
+        <label for="email">E-mail</label><br>
+        <input type="email" id="email" onkeyup="validaEmail()">
+        <div id="txtEmail"></div>
+        <br>
+        <label for="assunto">Assunto</label><br>
+        <textarea name="assunto" id="assunto" onkeyup="validaAssunto()" cols="60" rows="5"></textarea>
+        <div id="txtAssunto"></div>
+        <br>
+        <button>Enviar</button>
+
+        <h2>Endereço</h2>
+        <p>W Jefferson Blvd #600</p>
+        <p>Los Angeles, California - EUA</p>
+
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4528.456366875432!2d-118.42616640526397!3d33.97425550004167!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2b09b7c81b783%3A0x5e2843311f2d8a2f!2s13031%20W%20Jefferson%20Blvd%20%23600%2C%20Los%20Angeles%2C%20CA%2090066%2C%20EUA!5e1!3m2!1spt-BR!2sbr!4v1597678509692!5m2!1spt-BR!2sbr" width="450" height="150" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+
+    </form>
+    
+    <script src="assets/js/script.js"></script>
+</body>
+</html>

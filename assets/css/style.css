@@ -1,0 +1,55 @@
+/* aa Estilos da página index.html*/
+.center {
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.container2 {
+    display: flex;
+    flex-flow: row-reverse;
+    justify-content: center;
+    align-items: center;
+}
+
+#menu li {
+    display: inline;
+    padding: 15px;
+}
+
+#menu li a {
+    text-decoration-line: none;
+    color: #ffffff;
+}
+
+#menu li a:hover {
+    color: rgb(116, 16, 16);
+    font-size: 25px; 
+}
+
+.p-30 {
+    padding: 30px;
+}
+.fontecool {
+    font-family: 'Alata', sans-serif;
+}
+.fontecool2 {
+    font-family: 'Russo One', sans-serif;
+}
+.tm-social {
+    width: 30px;
+    height: 30px;
+}
+.fontecool3 {
+    font-family: 'Do Hyeon', sans-serif;
+}
+
+
+
+
+/* Estilos da página contato.html*/
